@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(185, 115, 147);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(206, 147, 147);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #5b3b3b;
+            padding: 3px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.484);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.284);
+        }
+
+        article>aside {
+            background-color: #567e7e;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>Meus site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo hic asperiores voluptatum excepturi
+                    error laudantium sit eaque, quo unde placeat fuga aliquam laborum ratione quam veniam quisquam
+                    deleniti provident quos.</p>
+                <aside>
+                    <p>Artigo escrito por Fellipe Abrantes</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvoldido por Fellipe Abrantes</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+
+</html>
